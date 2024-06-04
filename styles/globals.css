@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: sans-serif;
-
-    width: 100vw;
-    height: 100vh;
-
+* {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  transition: all linear 250ms;
 }
