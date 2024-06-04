@@ -1,35 +1,35 @@
 {
-  "name": "car-shop-project",
-  "version": "0.1.0",
-  "private": false,
+  "name": "car-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matan77/CarStoreProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matan77/CarStoreProject/issues"
+  },
+  "homepage": "https://github.com/matan77/CarStoreProject#readme",
   "dependencies": {
-    "@emotion/cache": "^11.11.0",
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.15.10",
-    "@mui/material": "^5.15.10",
-    "@mui/material-nextjs": "^5.15.9",
+    "@heroicons/react": "^2.1.1",
     "axios": "^1.6.7",
-    "bcrypt": "^5.1.1",
-    "jsonwebtoken": "^9.0.2",
-    "mysql2": "^3.9.1",
-    "next": "14.1.0",
-    "next-client-cookies": "^1.1.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-hook-form": "^7.50.1",
-    "react-spinners": "^0.13.8",
-    "stylis-plugin-rtl": "^2.1.1"
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0"
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
   }
 }
